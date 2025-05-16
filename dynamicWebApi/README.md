@@ -1,7 +1,5 @@
 # Dynamic Web API - Employee and Department Management
 
-## 📜 Description
-
 **Dynamic Web API** is a Java Spring Boot project that provides a RESTful API to manage Employees and Departments.  
 It supports full CRUD operations — Create, Read, Update, and Delete — on both entities and interacts with an Oracle database using `JdbcTemplate`.
 
