@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean class="org.pratham.Engine" id="engine" />
+
+    <bean class="org.pratham.Bike" id="bike">
+        <property name="engine" ref="engine" />
+    </bean>
+
+    <bean class="org.pratham.Car" id="car">
+        <property name="engine" ref="engine" />
+    </bean>
+
+
+    <!-- Constructor injection -->
+    <bean class="org.pratham.Traveler" id="traveler">
+       <constructor-arg ref="car" />
+    </bean>
+
+    <!-- Setter injection -->
+    <!--<bean class="org.pratham.Traveler" id="traveler">
+        <property name="vehicle" ref="car" />
+    </bean>-->
+
+</beans>
