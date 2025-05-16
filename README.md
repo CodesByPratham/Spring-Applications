@@ -6,11 +6,11 @@ A collection of **five practical and educational Java Spring-based projects** th
 
 ## 📘 Table of Contents
 
-1. [🔗 Dynamic Web API - Employee and Department Management](#1-dynamic-web-api---employee-and-department-management)
-2. [🌀 Spring Boot IoC and Dependency Injection Demo](#2-spring-boot---ioc-and-dependency-injection-demo)
-3. [🗃️ Spring Boot Oracle JDBC CRUD Console App](#3-spring-boot-database-oracle-jdbc-crud-console-app)
-4. [📦 Spring Framework IoC & DI Demo (XML Config)](#4-spring-framework---ioc-and-dependency-injection-demo-xml-configuration)
-5. [🧾 Static Web API (In-Memory Product CRUD)](#5-static-web-api-spring-boot)
+1. 🔗 Dynamic Web API - Employee and Department Management
+2. 🌀 Spring Boot IoC and Dependency Injection Demo
+3. 🗃️ Spring Boot Oracle JDBC CRUD Console App
+4. 📦 Spring Framework IoC & DI Demo (XML Config)
+5. 🧾 Static Web API (In-Memory Product CRUD)
 
 ---
 
@@ -20,13 +20,13 @@ A **Spring Boot 3+** REST API project to manage **Employees** and **Departments*
 
 ### 🔧 Features
 
-* CRUD APIs for both Employees and Departments
-* Many-to-One relationship: Employee → Department
-* Single and batch operations
-* Spring Boot + Spring JDBC
-* Oracle DB Integration
+- CRUD APIs for both Employees and Departments
+- Many-to-One relationship: Employee → Department
+- Single and batch operations
+- Spring Boot + Spring JDBC
+- Oracle DB Integration
 
-### 📎 Quick Link: [View Full Project Details](#1-dynamic-web-api---employee-and-department-management)
+### 📎 Quick Link: [View Full Project Details](/dynamicWebApi/)
 
 ---
 
@@ -34,11 +34,11 @@ A **Spring Boot 3+** REST API project to manage **Employees** and **Departments*
 
 A concise Spring Boot app to understand **Inversion of Control** and **Dependency Injection** concepts. This project uses simple classes (`Traveler`, `Vehicle`, `Car`, `Bike`, `Engine`) to demonstrate:
 
-* Constructor Injection ✅
-* Field & Setter Injection
-* `@Autowired`, `@Qualifier`, and `@Primary`
+- Constructor Injection ✅
+- Field & Setter Injection
+- `@Autowired`, `@Qualifier`, and `@Primary`
 
-### 📎 Quick Link: [View Full Project Details](#2-spring-boot---ioc-and-dependency-injection-demo)
+### 📎 Quick Link: [View Full Project Details](/springBoot/)
 
 ---
 
@@ -48,12 +48,12 @@ A **menu-driven console app** using Spring Boot and Spring JDBC for performing C
 
 ### 💡 Features
 
-* Console menu to Add, Read, Update, Delete students
-* Spring JDBC with `JdbcTemplate`
-* Preloaded sample data with `data.sql`
-* Graceful error handling
+- Console menu to Add, Read, Update, Delete students
+- Spring JDBC with `JdbcTemplate`
+- Preloaded sample data with `data.sql`
+- Graceful error handling
 
-### 📎 Quick Link: [View Full Project Details](#3-spring-boot-database-oracle-jdbc-crud-console-app)
+### 📎 Quick Link: [View Full Project Details](/springBootDatabase/)
 
 ---
 
@@ -63,11 +63,11 @@ A classic Spring Framework project (non-Boot) showcasing **IoC and DI** via **XM
 
 ### 🧠 Concepts
 
-* Constructor and Setter Injection
-* XML Bean Configuration
-* Vehicle interface with `Car`, `Bike`, and `Engine` classes
+- Constructor and Setter Injection
+- XML Bean Configuration
+- Vehicle interface with `Car`, `Bike`, and `Engine` classes
 
-### 📎 Quick Link: [View Full Project Details](#4-spring-framework---ioc-and-dependency-injection-demo-xml-configuration)
+### 📎 Quick Link: [View Full Project Details](/springFramework/)
 
 ---
 
@@ -77,13 +77,13 @@ A **Spring Boot** application that exposes a lightweight **REST API** for perfor
 
 ### 🔧 Features
 
-* In-memory product CRUD operations
-* Simple REST endpoints
-* No database required
-* Preloaded product list
-* Java 17 and Spring Boot 3+
+- In-memory product CRUD operations
+- Simple REST endpoints
+- No database required
+- Preloaded product list
+- Java 17 and Spring Boot 3+
 
-### 📎 Quick Link: [View Full Project Details](#5-static-web-api-spring-boot)
+### 📎 Quick Link: [View Full Project Details](/staticWebApi/)
 
 ---
 
@@ -104,15 +104,13 @@ ROOT/
 
 1. Clone the repository:
 
-    ```bash
-    git clone https://github.com/your-username/spring-java-projects.git
-    ````
+   ```bash
+   git clone https://github.com/your-username/spring-java-projects.git
+   ```
 
 2. Navigate to the specific project folder.
 
 3. Follow instructions in that project's section or its internal README.
-
-> ⚠️ **Oracle DB** must be installed and configured for DB-based projects.
 
 ---
 
